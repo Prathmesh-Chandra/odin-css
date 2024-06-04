@@ -1,0 +1,179 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.darkbg{
+    background-color: #1F2937;
+    color: white;
+    padding: 40px 365px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    margin-bottom: 125px;
+}
+
+.navbar .navelement{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.navbar .logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.image{
+    display: flex;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+}
+
+.herotext{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+    margin-bottom: 5px;
+    margin-right: 100px;
+    max-width: 400px;
+}
+
+.subtext{
+    max-width: 400px;
+    margin-bottom: 15px;
+    margin-left: 1px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup{
+    max-width: 100px;
+    height: 30px;
+    width: 150px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+
+.img{
+    flex: 1;
+}
+
+.lightbg{
+    padding: 0px 365px;
+    margin-bottom: 40px;
+}
+
+.subhead{
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.lightbg .list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: center;
+    gap: 50px;
+}
+
+.lightbg .list > div{
+    max-width: 150px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.lightbg .list > div > img{
+    border-radius: 10px;
+}
+
+.greybg{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 365px;
+    align-items: flex-end;
+    background-color: #E5E7EB;
+}
+.greybg .quote{
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    margin-top: 40px;
+    font-weight: 100;
+    padding: 80px;
+    padding-bottom: 0px;
+}
+
+.greybg .author{
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    font-weight: bold;
+
+}
+
+.lightbg2{
+    display: flex;
+    padding: 0px 365px;
+
+}
+
+.lightbg2 .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px 80px;
+    background-color: #3882f6;
+    margin: 100px 0px;
+    border-radius: 10px;
+    flex:1;
+    color: white;
+}
+
+.lightbg2 .card .text > h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.lightbg2 .card .button{
+    display: flex;
+    margin: 0px 40px;
+    align-items: center;
+}
+
+.lightbg2 .card .button > button{
+    background-color: #3882f6;
+    color: white;
+    font-size: large;
+    border-radius: 5px;
+    align-self: center;
+    max-width: 115px;
+    min-width: 115px;
+    height: 35px;
+    border: 2px solid white;
+}
